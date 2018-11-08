@@ -1,0 +1,8 @@
+language: android
+android:
+  - build-tools-27.0.3
+  - android-27
+
+script:
+  - cd wcs-travis/HelloWCS
+  - ./gradlew build
