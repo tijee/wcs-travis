@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HelloActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/helloTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp"
+            android:gravity="center_horizontal"
+            android:textSize="26sp" />
+
+        <EditText
+            android:id="@+id/nameEditText"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/name_hint"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/validateButton"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:text="@string/say_hello" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
