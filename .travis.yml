@@ -14,5 +14,5 @@ before_script:
 
 script:
   - cd wcs-travis/HelloWCS
-  #- ./gradlew build
-  - ./gradlew connectedAndroidTest
+  - ./gradlew build
+  #- ./gradlew connectedAndroidTest

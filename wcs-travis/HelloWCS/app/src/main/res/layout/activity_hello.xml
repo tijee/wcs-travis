@@ -17,6 +17,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="120dp"
             android:gravity="center_horizontal"
+            android:textColor="@color/colorAccent"
             android:textSize="26sp" />
 
         <EditText
